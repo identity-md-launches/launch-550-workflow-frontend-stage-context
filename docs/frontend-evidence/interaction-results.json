@@ -1,0 +1,125 @@
+{
+  "date": "2026-10-01T05:25:51.748Z",
+  "browser": "Playwright Chromium 141",
+  "results": [
+    {
+      "name": "Disconnected state, verified config/ABIs, live public reads, gated transactions",
+      "result": "PASS"
+    },
+    {
+      "name": "Wallet connection rejection is recoverable",
+      "result": "PASS"
+    },
+    {
+      "name": "Wrong chain disables actions; 4902 adds exact supplied network then switches",
+      "result": "PASS"
+    },
+    {
+      "name": "Invalid precision is rejected without rounding and error is associated with focused field",
+      "result": "PASS"
+    },
+    {
+      "name": "Exact staking approval, pending disable through receipt, fresh allowance, no duplicate send",
+      "result": "PASS"
+    },
+    {
+      "name": "Stake confirmation explains lock reset; Escape cancels before signing",
+      "result": "PASS"
+    },
+    {
+      "name": "Simulation custom error is translated and prevents signing",
+      "result": "PASS"
+    },
+    {
+      "name": "Transaction rejection releases action lock",
+      "result": "PASS"
+    },
+    {
+      "name": "Stake uses the deployed vault and refreshes position after receipt",
+      "result": "PASS"
+    },
+    {
+      "name": "Locked unstake disabled using the chain timestamp",
+      "result": "PASS"
+    },
+    {
+      "name": "Claim while locked succeeds and refreshes rewards",
+      "result": "PASS"
+    },
+    {
+      "name": "Unstake becomes available at exact chain unlock boundary",
+      "result": "PASS"
+    },
+    {
+      "name": "Donation acknowledgement, approval and guarded full-week funding overload",
+      "result": "PASS"
+    },
+    {
+      "name": "Restart requires ended period and sufficient queued funding",
+      "result": "PASS"
+    },
+    {
+      "name": "Buy: configured quoter/router, handoff pool, V4 actions, 0.5% minimum, native value, no approval",
+      "result": "PASS"
+    },
+    {
+      "name": "Sell: token → configured Permit2 → configured Universal Router permissions, then zero-value execute",
+      "result": "PASS"
+    },
+    {
+      "name": "Changing trade input invalidates the previous quote",
+      "result": "PASS"
+    },
+    {
+      "name": "Wallet account event refreshes position and invalidates pending review/quote",
+      "result": "PASS"
+    },
+    {
+      "name": "Reverted receipt reported without claiming success",
+      "result": "PASS"
+    },
+    {
+      "name": "Missing contract code disables all transaction actions and refresh recovers",
+      "result": "PASS"
+    },
+    {
+      "name": "Rendered reflow at 1440, 768, 390 and 320 CSS pixels without horizontal overflow",
+      "result": "PASS"
+    },
+    {
+      "name": "200% text enlargement reflow (not native browser zoom)",
+      "result": "PASS"
+    },
+    {
+      "name": "Keyboard skip link and visible focus, native buttons and dialog Escape",
+      "result": "PASS"
+    },
+    {
+      "name": "Keyboard-only connect, amount entry, approval, dialog confirmation and staking flow",
+      "result": "PASS"
+    },
+    {
+      "name": "Reduced motion suppresses button transitions",
+      "result": "PASS"
+    },
+    {
+      "name": "Automated axe WCAG A/AA scan: no violations in disconnected desktop state",
+      "result": "PASS"
+    },
+    {
+      "name": "Measured rendered text/background pairs ≥4.5:1; no page JavaScript errors",
+      "result": "PASS"
+    },
+    {
+      "name": "Missing injected wallet provides an actionable install/open message",
+      "result": "PASS"
+    },
+    {
+      "name": "Production export at /preview/: actual Sepolia public reads and attested pool verified, no broadcasts",
+      "result": "PASS"
+    }
+  ],
+  "transactions": "Mocked only; no real wallet transactions",
+  "rpcCalls": 1148,
+  "walletTransactions": 14
+}

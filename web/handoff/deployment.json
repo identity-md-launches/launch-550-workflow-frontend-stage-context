@@ -1,0 +1,58 @@
+{
+  "chainId": 11155111,
+  "poolKey": {
+    "fee": 12500,
+    "hooks": "0x1b7dae02cbe9ccd80ae77e1f51884a324f006000",
+    "currency0": "0x0000000000000000000000000000000000000000",
+    "currency1": "0xc98c785255ef29f690b3b40f71f3d1e313d49d9e",
+    "tickSpacing": 60
+  },
+  "repoUrl": "https://github.com/identity-md-launches/launch-543-workflow-contract-stage-context",
+  "version": 1,
+  "launchId": "5cb14d8c-6d98-4fc1-bb7f-be993ef4df15",
+  "manifest": {
+    "kind": "evm_project",
+    "pool": {
+      "fee": 3000,
+      "tickSpacing": 60,
+      "initialPrice": "79228162514264337593543950336",
+      "pairedCurrency": "0x0000000000000000000000000000000000000000"
+    },
+    "notes": "SevenDay (SEVEN) launch: the fixed-supply LaunchToken in src/LaunchToken.sol (no constructor arguments, 18 decimals, 10^27 minor units minted to the factory) plus one application contract. StakingVault in src/StakingVault.sol takes a single address argument, the launch token, supplied as $token. It is ownerless and immutable: no owner, admin, pause, upgrade, fee, rescue or initialization function, so no $owner argument and no post-deployment calls. The vault enforces a 7-day principal lock per wallet (each stake addition resets that wallet's lock), lets anyone fund SEVEN rewards after an ERC-20 approval via fundRewards(amount) or fundRewards(amount, minDuration) (the latter reverts unless the resulting stream has at least minDuration seconds left), streams rewards pro rata per second over 7-day periods, queues emissions that elapse with no stakers plus schedule dust for a new period that anyone can start with restartRewards after the current one ends, keeps reward accounting separate from principal, and lets stakers claim at any time. It starts empty and unfunded; it receives no launch allocation. The pool pairs with native ETH (zero address); fee 3000, tickSpacing 60 and initialPrice are the standard admission values, with the effective opening price and trading fee set by the pinned policy and the chain's LaunchFees contract. The factory supplies the LP, MerkleDistributor and PoolInitializationGuard; none are project contracts. Supply split, allocations, chain, policy and signed artifact linkage belong to the services, not this manifest.",
+    "token": {
+      "name": "SevenDay",
+      "symbol": "SEVEN",
+      "contract": "LaunchToken",
+      "decimals": 18
+    },
+    "contracts": [
+      {
+        "contract": "StakingVault",
+        "constructorArgs": [
+          "$token"
+        ]
+      }
+    ]
+  },
+  "contracts": [
+    {
+      "name": "LaunchToken",
+      "txHash": "0xea7ce3ecc55dbeb0d5506cd95f9ae844b08a79f350db96849eda3103d794f87f",
+      "abiHash": "38880b8e56d42ce900f744a7908c7139632a49f1c3f33385c64ceaed29d37bee",
+      "address": "0xc98c785255ef29f690b3b40f71f3d1e313d49d9e",
+      "blockNumber": 11819565,
+      "creationCodeHash": "1c46c5f6a2e40e57525bff64674eb527e39f7f493f7f7a8b87d87bb3806f5b15"
+    },
+    {
+      "name": "StakingVault",
+      "txHash": "0xea7ce3ecc55dbeb0d5506cd95f9ae844b08a79f350db96849eda3103d794f87f",
+      "abiHash": "412192cd69dd0a0af534aae3023d71f956a9193d47ffc12bdd780f5f62b67521",
+      "address": "0xc36579e569eebfa5730ee1552e0e3b6e0f481efd",
+      "blockNumber": 11819565,
+      "creationCodeHash": "5fde274711b91e1d0db9c0a2b7bfa99293b5f338540c3673cd2b32e81b2fe455"
+    }
+  ],
+  "sourceCommit": "087f24eafc834f4aa13f89ba301da8e224c4151c",
+  "abiInstructions": "Build ABIs from this exact source commit; compare canonicalKeccak(abi) with abiHash. Verify deployed code on the stated chain before enabling transactions.",
+  "attestationHash": "5cf9b6cd2ced54dc435e3efdd9ee388f8aacd7510d8e35f93e63615d8bc12319"
+}

@@ -1,0 +1,133 @@
+A SHARED REWARD. A LITTLE TIME.
+
+Good things
+take seven days.
+
+Put your SEVEN to work in a community-funded vault. Stake for a week. Claim your rewards whenever you like.
+
+Make time for your tokens
+THE SEVENDAY VAULT
+7
+DAYS TO SLOW DOWN
+Time in. Rewards out.
+
+CURRENT TOKEN APR
+
+0%
+
+Variable, simple annualized rate
+
+TOTAL STAKED
+
+0 SEVEN
+
+Principal held in the vault
+
+REWARD RESERVE
+
+0 SEVEN
+
+Funded separately from principal
+Live on Sepolia · Block 11,819,715 · 5:25:51 AM
+Refresh state ↻
+
+YOUR NEXT SEVEN DAYS
+
+A place for your SEVEN.
+↗
+Stake
+Unstake
+Amount to stake
+SEVEN
+
+Your balance appears when you connect.
+
+◷
+
+Every deposit starts a new 7-day lock on your entire stake. Rewards stay claimable.
+
+Connect wallet to stake
+
+Connect your wallet to manage your position.
+
+MADE FOR THE LONG WEEK
+
+Your position
+7-day lock
+
+Connect a wallet to see what’s growing.
+
+Staked balance
+— SEVEN
+Claimable rewards
+— SEVEN
+Principal unlocks
+Connect to view
+Claim rewards
+
+Claim anytime. No need to wait for your lock to end.
+
+BEFORE YOU SETTLE IN
+
+Swap SEVEN
+Uniswap v4
+
+Get SEVEN with testnet ETH, or swap back when you’re ready.
+
+Buy SEVEN
+Sell SEVEN
+You pay in ETH
+ETH
+
+Balance: — ETH. Leave ETH for gas.
+
+Slippage tolerance (%)
+
+0.1%–5%. Quotes expire after 60 seconds.
+
+Verified pool · 1.25% fee · Native ETH pair
+
+Get quote
+
+Connect your wallet to manage your position.
+
+KEEP THE REWARDS FLOWING
+
+A vault funded by anyone.
+
+Contribute SEVEN to the shared reward stream. Rewards go to stakers, second by second, in proportion to their stake.
+
+Fund rewards
++
+Reward period ends
+No active period
+Queued rewards
+0 SEVEN
+Current emission
+0 SEVEN/s
+Restart rewards
+
+Available after the period ends, when the queue can fund at least one base unit per second.
+
+SIMPLE BY DESIGN
+
+Your tokens.
+A shared rhythm.
+01
+Stake for seven days
+
+Approve the vault, then stake SEVEN. Each addition resets the lock on your whole position.
+
+02
+Share in the stream
+
+Anyone can fund rewards. Your share follows your stake, accruing every second while the period is active.
+
+03
+Claim on your schedule
+
+Rewards are always claimable. Withdraw your principal once the seven-day lock ends.
+
+Know what the numbers mean. APR is a simple annualized token rate at the current stake and emission rate, with no compounding. It is variable, not a promise; the current stream lasts at most seven days. No USD price source is configured. All values are in token units.
+
+This is a Sepolia testnet deployment. The vault is ownerless, with no pause or rescue function. Reward accounting is separate from staked principal.

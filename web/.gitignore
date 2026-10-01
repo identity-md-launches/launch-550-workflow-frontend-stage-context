@@ -1,0 +1,11 @@
+node_modules/
+**/node_modules/
+.vite/
+**/.vite/
+coverage/
+test-results/
+playwright-report/
+*.tsbuildinfo
+*.tgz
+.npm/
+**/.cache/

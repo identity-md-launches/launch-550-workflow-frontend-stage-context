@@ -1,0 +1,28 @@
+{
+  "name": "sevenday-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "typecheck": "tsc --noEmit",
+    "build": "node scripts/prepare.mjs && tsc --noEmit && vite build && node scripts/manifest.mjs",
+    "preview": "vite preview --host 0.0.0.0",
+    "verify": "node scripts/verify.mjs",
+    "test": "node tests/interactions.mjs"
+  },
+  "dependencies": {
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "viem": "2.38.5"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.2",
+    "@types/react-dom": "19.2.2",
+    "@vitejs/plugin-react": "5.0.4",
+    "axe-core": "4.11.0",
+    "playwright": "1.56.1",
+    "typescript": "5.9.3",
+    "vite": "7.1.12"
+  }
+}

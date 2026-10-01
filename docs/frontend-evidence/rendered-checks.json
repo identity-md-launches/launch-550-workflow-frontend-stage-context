@@ -1,0 +1,59 @@
+{
+  "viewports": [
+    {
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "overflow": false
+    }
+  ],
+  "contrast": [
+    {
+      "selector": ".hero-copy",
+      "foreground": "rgb(89, 99, 83)",
+      "background": "rgb(245, 245, 238)",
+      "ratio": "5.75"
+    },
+    {
+      "selector": ".hero h1",
+      "foreground": "rgb(32, 55, 43)",
+      "background": "rgb(245, 245, 238)",
+      "ratio": "11.67"
+    },
+    {
+      "selector": ".hint",
+      "foreground": "rgb(89, 99, 83)",
+      "background": "rgb(245, 245, 238)",
+      "ratio": "5.75"
+    },
+    {
+      "selector": ".primary",
+      "foreground": "rgb(255, 254, 250)",
+      "background": "rgb(32, 55, 43)",
+      "ratio": "12.67"
+    },
+    {
+      "selector": ".wallet-button",
+      "foreground": "rgb(32, 55, 43)",
+      "background": "rgb(245, 245, 238)",
+      "ratio": "11.67"
+    },
+    {
+      "selector": ".eyebrow",
+      "foreground": "rgb(32, 55, 43)",
+      "background": "rgb(245, 245, 238)",
+      "ratio": "11.67"
+    }
+  ],
+  "consoleErrors": []
+}

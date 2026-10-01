@@ -1,0 +1,45 @@
+{
+  "violations": [],
+  "passes": [
+    "aria-allowed-attr",
+    "aria-conditional-attr",
+    "aria-deprecated-role",
+    "aria-hidden-body",
+    "aria-hidden-focus",
+    "aria-prohibited-attr",
+    "aria-required-attr",
+    "aria-roles",
+    "aria-valid-attr-value",
+    "aria-valid-attr",
+    "autocomplete-valid",
+    "button-name",
+    "bypass",
+    "color-contrast",
+    "definition-list",
+    "dlitem",
+    "document-title",
+    "duplicate-id-aria",
+    "form-field-multiple-labels",
+    "html-has-lang",
+    "html-lang-valid",
+    "label",
+    "link-in-text-block",
+    "link-name",
+    "list",
+    "listitem",
+    "meta-viewport",
+    "nested-interactive",
+    "summary-name",
+    "target-size"
+  ],
+  "incomplete": [
+    {
+      "id": "aria-prohibited-attr",
+      "description": "Ensure ARIA attributes are not prohibited for an element's role"
+    },
+    {
+      "id": "color-contrast",
+      "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds"
+    }
+  ]
+}
